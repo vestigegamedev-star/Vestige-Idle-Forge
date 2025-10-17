@@ -1,0 +1,10 @@
+cat > Assets/Vestige/Config/boosters.json << 'EOF'
+{
+  "boosters": [
+      {"id":"overclock_tap","name":"Overclock Tap","duration_s":180,"tap_mul":2.0,"stackable":false},
+          {"id":"double_yield","name":"Double Yield","duration_s":300,"yield_mul":2.0,"stackable":true},
+              {"id":"crystal_magnet","name":"Crystal Magnet","duration_s":240,"auto_collect":true,"stackable":false}
+                ]
+                }
+                EOF
+                

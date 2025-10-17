@@ -1,0 +1,10 @@
+cat > Assets/Vestige/Config/shop_items.json << 'EOF'
+{
+  "shop": [
+      {"id":"starter_pack_099","type":"bundle","price_usd":0.99,"rewards":[{"currency":"crystal","amount":500},{"booster":"double_yield","duration_s":900}]},
+          {"id":"coin_pack_1","type":"currency","price_usd":1.99,"rewards":[{"currency":"crystal","amount":1500}]},
+              {"id":"ad_double_5m","type":"ad_reward","price_ads":1,"rewards":[{"booster":"double_yield","duration_s":300}]}
+                ]
+                }
+                EOF
+                

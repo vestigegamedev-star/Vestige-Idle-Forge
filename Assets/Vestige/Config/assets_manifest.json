@@ -1,0 +1,10 @@
+cat > Assets/Vestige/Config/assets_manifest.json << 'EOF'
+{
+  "required": [
+      {"id":"app_icon_1024","type":"icon","path":"Assets/Vestige/Icons/app_1024.png","size":[1024,1024]},
+          {"id":"ui_btn_primary","type":"ui","path":"Assets/Vestige/UI/btn_primary.png","size":[256,96]},
+              {"id":"icon_crystal","type":"icon","path":"Assets/Vestige/Icons/icon_crystal.png","size":[512,512]}
+                ]
+                }
+                EOF
+                
